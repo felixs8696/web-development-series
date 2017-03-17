@@ -1,0 +1,35 @@
+nav {
+    background-color: rgba(0,0,0,0.4);
+    transition: .5s linear all;
+}
+
+.jumbotron {
+    position: relative;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    background: url("../public/berkeley.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 5em;
+    text-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.subtitle {
+    font-size: 3em;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card .card-title {
+  font-weight: 400;
+  text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+footer.page-footer {
+    background-color: rgba(0,0,0,0.8);
+}
